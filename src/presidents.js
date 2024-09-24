@@ -454,6 +454,15 @@ function countYearsInOffice(presidentsArr) {
   return sumOfPresidentsLeftOffice - sumOfPresidentsTookOffice;
 }
 
+// function countYearsInOffice(presidentsArr) {
+//   return presidentsArr.reduce((acc, curr) => {
+//     if (curr.leftOffice !== null) {
+//       acc += (curr.leftOffice - curr.tookOffice);
+//     }
+//     return acc;
+//   }, 0);
+// }
+
 // Iteration 4 | Sort Presidents by Birth Year - `sort()`
 function sortPresidentsByBirthYear(presidentsArr) {
   const sortedPresidentsByBirthDate = presidentsArr.sort(
